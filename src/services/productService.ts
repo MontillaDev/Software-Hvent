@@ -1,5 +1,5 @@
 // services/productService.ts
-import { supabase } from '@/lib/supabase';
+import { supabase } from '../lib/supabase';
 
 interface Producto {
     precio_usd: number;

@@ -1,4 +1,6 @@
 {
+  "name": "software-hvent-nueva-propuesta",
+  "version": "1.0.0",
   "devDependencies": {
     "typescript": "^5.9.3"
   },
