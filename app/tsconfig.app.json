@@ -11,7 +11,7 @@
 
     "paths": {
       "@/*": ["./src/*"],
-      "@lib/*": ["./lib/*"]
+      "@lib/*": ["./src/lib/*"]
     },
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -29,5 +29,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "lib"]
+  "include": ["src"]
 }
