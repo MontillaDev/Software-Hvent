@@ -2,10 +2,10 @@
 import { supabase } from '@/lib/supabase';
 
 interface Producto {
-  precio_usd: number;
-  costo_usd: number;
-  stock_actual: number;
-  [key: string]: any;
+    precio_usd: number;
+    costo_usd: number;
+    stock_actual: number;
+    [key: string]: any;
 }
 
 export async function getInventory() {
